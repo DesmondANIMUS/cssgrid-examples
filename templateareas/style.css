@@ -1,0 +1,59 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-gap: 5px;
+    grid-template-areas:
+                        "m h h h h h h h h h h ."
+                        "m c c c c c c c c c c c"
+                        "m f f f f f f f f f f f";
+} 
+
+.header{
+    grid-area: h;    
+}
+.menu {
+    grid-area: m;
+}
+.content{    
+    grid-area: c;
+}
+.footer{
+    grid-area: f;
+}
+
+
+div {
+    color: white;    
+    font-size: 30px;                       
+    text-transform: uppercase;     
+    text-align: center;           
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#a1 {
+    background-color: aquamarine;                
+}
+#a2 {
+    background-color: brown;
+}
+#a3 {
+    background-color: chartreuse;
+}
+#a4 {
+    background-color: crimson;
+}
+
+#a1:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+#a2:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+#a3:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+#a4:hover {
+    box-shadow: 10px 5px 5px gray;
+}

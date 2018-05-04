@@ -1,0 +1,57 @@
+.container {
+    display: grid;
+    grid-template: 40px 200px 40px / repeat(12, 1fr);
+    grid-gap: 5px;
+} 
+
+.header{
+    grid-column: 2 / -2;
+}
+.menu{
+    grid-row: 1 / -2;
+}
+.content{
+    grid-column: 2 / -2;
+}
+.footer{
+    grid-column: 1 / -1;
+}
+
+.menu-two {
+    grid-column: -2 / -1;
+    grid-row: 1 / -2;    
+}
+
+div {
+    color: white;    
+    font-size: 30px;                       
+    text-transform: uppercase;     
+    text-align: center;           
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#a1 {
+    background-color: aquamarine;                
+}
+#a2 {
+    background-color: brown;
+}
+#a3 {
+    background-color: chartreuse;
+}
+#a4 {
+    background-color: crimson;
+}
+
+#a1:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+#a2:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+#a3:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+#a4:hover {
+    box-shadow: 10px 5px 5px gray;
+}
